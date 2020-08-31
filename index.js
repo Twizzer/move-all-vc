@@ -11,7 +11,7 @@ const { getChannel } = getModule(['getChannel'], false);
 const { Plugin } = require('powercord/entities');
 const { sleep } = require('powercord/util');
 
-module.exports = class VoiceUtilities extends Plugin {
+module.exports = class VoiceChatMoveAll extends Plugin {
    async startPlugin() {
       inject('vc-move-all', ChannelContextMenu, 'default', (args, res) => {
          let channel = args[0].channel;
