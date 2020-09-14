@@ -2,6 +2,6 @@
    "name": "Voice Chat Move All",
    "version": "1.0.0",
    "description": "A context menu utility to move everyone to a certain voice channel.",
-   "Maintainers": "Twizzer#0001 & AAGaming#9395",
+   "maintainers": "Twizzer#0001 & AAGaming#9395",
    "license": "Unlicensed"
 }
